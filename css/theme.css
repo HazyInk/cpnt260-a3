@@ -1,8 +1,59 @@
-header {
-  background-color: papayawhip;
+body {
+  background: linear-gradient(#97d7ff, #9667f4, #cf5eff);
+  background-size: 400% 400%;
+	height: 100vh;
+}
 
-  background-image: url('/images/space.png');
+header {
+  background-image: url('/cpnt260-a3/images/space.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; 
+  border-radius: 10px;
+}
+
+
+
+h1 {
+  flex-wrap: wrap;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #463c5b;
+  background-color: #CA4246;
+  
+  /* Create the gradient. */
+   background-image: linear-gradient(
+        0deg,
+        #57cfff 16.666%, 
+        #5789ff 16.666%, 
+        #5765ff 33.333%, 
+        #8957ff 33.333%, 
+        #c757ff 50%, 
+        #ff57fc 50%, 
+        #ff57ab 66.666%, 
+        #ffbc57 66.666%, 
+        #ff5770 83.333%, 
+        #ff5770 83.333%);
+  
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2, p {
+  color: #372367;
+}
+
+.button1:hover {
+  background-color: #483064;
+  color: #bca2d8;
+}
+
+.button2:hover {
+  background-color: #483064;
+  color: #bca2d8;
 }

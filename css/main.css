@@ -1,7 +1,39 @@
-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+body{
+  text-align: center;
+}
 
-  height: 100vh;
+
+header {
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 10rem;
+  height: 55vh;
+}
+
+.button1 {
+  border-radius: 10px;
+  border: none;
+  color: #3d314f;
+  padding: 15px 32px;
+  background-color: #d7c6ff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button2 {
+  border-radius: 10px;
+  border: none;
+  color: #524269;
+  padding: 15px 32px;
+  background-color: #d2b6e5;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  margin: 4px 2px;
+  cursor: pointer;
 }

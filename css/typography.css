@@ -1,4 +1,18 @@
-header {
-  font-size: 75px;
+h1 {
+  font-size: 65px;
   font-family: 'Young Serif', serif;
+}
+
+h2, p {
+  font-family: 'Young Serif', serif;
+}
+
+h2 {
+  padding-top: 2rem;
+}
+
+p {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
 }
